@@ -6,5 +6,5 @@
   "testpass": "120440",
   "days": 2,
   "limitssh": 2,
-  "HTTPS": true
+  "HTTPS": false
 }
