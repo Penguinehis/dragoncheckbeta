@@ -1,0 +1,10 @@
+{
+  "checkOnline": false,
+  "OnlineFULL": true,
+  "checkUser2": false,
+  "Gtestuser": true,
+  "testpass": "120440",
+  "days": 2,
+  "limitssh": 2,
+  "HTTPS": true
+}
