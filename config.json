@@ -1,8 +1,8 @@
 {
   "checkOnline": false,
-  "OnlineFULL": true,
+  "OnlineFULL": false,
   "checkUser2": false,
-  "Gtestuser": true,
+  "Gtestuser": false,
   "testpass": "120440",
   "days": 2,
   "limitssh": 2,
