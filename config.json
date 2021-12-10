@@ -1,10 +1,10 @@
 {
   "checkOnline": false,
-  "OnlineFULL": true,
+  "OnlineFULL": false,
   "checkUser2": false,
   "Gtestuser": false,
   "andley302": false,
-  "rgn": true,
+  "rgn": false,
   "testpass": "120440",
   "days": 2,
   "limitssh": 2,
