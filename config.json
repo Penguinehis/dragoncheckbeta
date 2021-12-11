@@ -1,7 +1,7 @@
 {
   "checkOnline": false,
   "OnlineFULL": false,
-  "checkUser2": true,
+  "checkUser2": false,
   "Gtestuser": false,
   "andley302": false,
   "rgn": true,
