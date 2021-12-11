@@ -1,12 +1,16 @@
 {
   "checkOnline": false,
   "OnlineFULL": false,
-  "checkUser2": false,
+  "checkUser2": true,
   "Gtestuser": false,
   "andley302": false,
-  "rgn": false,
+  "rgn": true,
   "testpass": "120440",
   "days": 2,
   "limitssh": 2,
-  "HTTPS": false
+  "usertext": "👤User",
+  "validtext": "⏳Validity",
+  "timetext": "⏳Time Left",
+  "timeformat": "pt-br",
+  "HTTPS": true
 }
