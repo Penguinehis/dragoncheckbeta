@@ -10,7 +10,7 @@ if you view in the command:
 
 the node and the port exemple:
 
-COMMAND    PID USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+COMMAND    PID USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME<br>
 node    794754 root   22u  IPv6 2872037      0t0  TCP *:6888 (LISTEN)
 
 If not try to run the node without the screen to get the error:
