@@ -6,6 +6,7 @@
     "johngrimm-utils": "^2.0.5",
     "json-fixer": "^1.6.13",
     "ssl-key-match": "^0.0.4",
+    "minimist": "^1.2.5",
     "terminal-kit": "^2.2.3"
   },
   "name": "CheckUSER ALLCENTER",
