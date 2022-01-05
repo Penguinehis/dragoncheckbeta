@@ -38,7 +38,7 @@ cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragonc
 
 in the folder dragoncheckbeta create a .sh with that
 
-#!/bin/bash
+#!/bin/bash<br>
 screen -dmS api /root/.nvm/versions/node/v16.13.1/bin/node /root/dragoncheckbeta/v12.js --token=TOKEN --port=PORT
 
 Change the Token, to your token
