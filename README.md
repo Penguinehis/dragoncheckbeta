@@ -20,3 +20,15 @@ node index.js TOKEN
 In this case in the folder dragoncheckbeta
 
 If need any support just send a menssage here in github our in the telegram https://t.me/sisudragon
+
+
+Restart API After REBOOT:
+
+V11:
+
+cd dragoncheckbeta && screen -dmS api node v11.js —token=TOKEN —port=PORT && cd
+
+
+V10
+
+cd dragoncheckbeta && screen -dmS api node index.js TOKEN && cd
