@@ -1,4 +1,4 @@
-Command to install
+# Command to install
 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" && nvm install 16 && apt install git -y && git clone https://github.com/Penguinehis/dragoncheckbeta.git && cd dragoncheckbeta && npm i && screen -dmS api node v12.js --token=TOKEN --port=6888
 
@@ -22,19 +22,19 @@ In this case in the folder dragoncheckbeta
 If need any support just send a menssage here in github our in the telegram https://t.me/sisudragon
 
 
-Restart API After REBOOT:
+# Restart API After REBOOT:
 
 V12:
 
 cd dragoncheckbeta && screen -dmS api node v12.js --token=TOKEN --port=PORT && cd
 
 
-Update to v12:
+# Update to v12:
 
 cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragoncheckbeta/main/v12.js
 
 
-How to auto start with reboot?
+# How to auto start with reboot?
 
 in the folder dragoncheckbeta create a .sh with that
 
