@@ -27,3 +27,8 @@ Restart API After REBOOT:
 V12:
 
 cd dragoncheckbeta && screen -dmS api node v12.js --token=TOKEN --port=PORT && cd
+
+
+Update to v12:
+
+cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragoncheckbeta/main/v12.js
