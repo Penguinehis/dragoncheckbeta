@@ -26,7 +26,7 @@ Restart API After REBOOT:
 
 V11:
 
-cd dragoncheckbeta && screen -dmS api node v11.js —token=TOKEN —port=PORT && cd
+cd dragoncheckbeta && screen -dmS api node v11.js --token=TOKEN --port=PORT && cd
 
 
 V10
