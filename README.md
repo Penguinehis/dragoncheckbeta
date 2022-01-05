@@ -32,3 +32,33 @@ cd dragoncheckbeta && screen -dmS api node v12.js --token=TOKEN --port=PORT && c
 Update to v12:
 
 cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragoncheckbeta/main/v12.js
+
+
+How to auto start with reboot?
+
+in the folder dragoncheckbeta create a .sh with that
+
+#!/bin/bash
+screen -dmS api /root/.nvm/versions/node/v16.13.1/bin/node /root/dragoncheckbeta/v12.js --token=TOKEN --port=PORT
+
+Change the Token, to your token
+
+and change the PORT, to your desired port exemple 6888
+
+after that do chmod 777 name of the .sh 
+
+in crontab -e 
+
+select nano
+
+and put this line 
+
+@reboot /root/name of the .sh
+
+ctrl + x
+
+Y 
+
+Enter 
+
+and its it
