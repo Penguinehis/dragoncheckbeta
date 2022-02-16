@@ -1,6 +1,6 @@
 # Command to install
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" && nvm install 16 && apt install git -y && git clone https://github.com/Penguinehis/dragoncheckbeta.git && cd dragoncheckbeta && npm i && screen -dmS api node v12.js --token=TOKEN --port=6888
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" && nvm install 16 && apt install git -y && git clone https://github.com/Penguinehis/dragoncheckbeta.git && cd dragoncheckbeta && npm i && screen -dmS api node v14.js --token=TOKEN --port=6888
 
 IN TOKEN, change to your key exemple: penguinehhis091m31041kl4014 (this key not work is just a exemple)
 
@@ -24,14 +24,14 @@ If need any support just send a menssage here in github our in the telegram http
 
 # Restart API After REBOOT:
 
-V12:
+V14:
 
-cd dragoncheckbeta && screen -dmS api node v12.js --token=TOKEN --port=PORT && cd
+cd dragoncheckbeta && screen -dmS api node v14.js --token=TOKEN --port=PORT && cd
 
 
-# Update to v12:
+# Update to v14:
 
-cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragoncheckbeta/main/v12.js
+cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragoncheckbeta/main/v14.js
 
 
 # How to auto start with reboot?
@@ -39,7 +39,7 @@ cd dragoncheckbeta && wget https://raw.githubusercontent.com/Penguinehis/dragonc
 in the folder dragoncheckbeta create a .sh with that
 
 #!/bin/bash<br>
-screen -dmS api /root/.nvm/versions/node/v16.13.1/bin/node /root/dragoncheckbeta/v12.js --token=TOKEN --port=PORT
+screen -dmS api /root/.nvm/versions/node/v16.14.0/bin/node /root/dragoncheckbeta/v12.js --token=TOKEN --port=PORT
 
 Change the Token, to your token
 
