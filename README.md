@@ -26,7 +26,7 @@ If need any support just send a menssage here in github our in the telegram http
 
 V18:
 
-cd dragoncheckbeta && screen -dmS api node v14.js --token=TOKEN --port=PORT && cd
+cd dragoncheckbeta && screen -dmS api node v18.js --token=TOKEN --port=PORT && cd
 
 
 # Update to v18:
