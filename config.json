@@ -1,14 +1,14 @@
 {
   "checkOnline": false,
   "OnlineFULL": false,
-  "checkUser2": false,
-  "Gtestuser": false,
-  "gettest": false,
+  "checkUser2": true,
+  "Gtestuser": true,
+  "gettest": true,
   "andley302": false,
-  "rgn": true,
-  "testpass": "exemple",
-  "days": 1,
-  "limitssh": 1,
+  "rgn": false,
+  "testpass": "120440",
+  "days": 2,
+  "limitssh": 2,
   "usertext": "👤User",
   "validtext": "⏳Validity",
   "timetext": "⏳Time Left",
@@ -17,5 +17,10 @@
   "testuser": "👤User",
   "passwordtest": "🔑Password",
   "validtest": "⏳Days",
+  "html": {
+    "style_user": "font: 15px Arial, sans-serif; font-weight: bold; color:#ff0000;",
+    "style_valid": "font: 15px Arial, sans-serif; font-weight: bold; font-style: italic; color:#ff0000;",
+    "style_time": "font: 15px Arial, sans-serif; font-weight: bold; font-style: oblique; color:#ff0000;"
+  },
   "limittest": "⚠️Limit Users"
 }
