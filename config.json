@@ -23,7 +23,6 @@
     "style_time": "font: 15px Arial, sans-serif; font-weight: bold; font-style: oblique; color:#ff0000;"
   },
   "limittest": "⚠️Limit Users"
-  },
   "servers": {
     "server1": "example:6888"
   }
